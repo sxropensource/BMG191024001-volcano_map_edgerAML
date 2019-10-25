@@ -79,7 +79,7 @@ BMG191024001-volcano_map_edgerAML
     2. 拷贝[volcano_map](https://github.com/sxropensource/volcano_map)流程中的
     [src/volcano_map.R](https://github.com/sxropensource/volcano_map/blob/master/src/volcano_map.R)
     到`src`目录
-    3. 根据文档文档做相应的修改（针对探索性步骤）
+    3. 根据文档做相应的修改（针对探索性步骤）
     4. 运行`volcano_map.R`
     
         ```
