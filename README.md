@@ -10,17 +10,26 @@
 ## 建立目录结构
 
 ```
-BMG191024001-gse29272_dge
+BMG191024001-volcano_map_edgerAML
+├── README.md
 ├── VERSION.md
 └── v1
     ├── results
+    │   ├── Figure
+    │   │   ├── Figure1.pdf
+    │   │   └── Figure2.pdf
+    │   └── Table
     └── runtime
         ├── ANALYSIS.md
         ├── data
+        │   └── edgerAML.tsv
         ├── doc
         ├── figs
+        │   ├── volcano_map.pdf
+        │   └── volcano_map.png
         ├── output
         └── src
+            └── volcano_map.R
 ```
 
 1. 关于版本控制
@@ -57,3 +66,27 @@ BMG191024001-gse29272_dge
     3. figs: 分析过程中生成的图片
     4. output: 分析过程生成的表格及其他文本文件
     5. src：程序文件
+
+## 运行分析
+
+切换到当前版本的`runtime`目录（本例中即：`v1/runtime`）：
+
+1. 画图
+
+    1. 准备数据（本例中也即把`edgerAML.tsv`拷贝到`data`目录）
+    2. 拷贝[volcano_map](https://github.com/sxropensource/volcano_map)流程中的
+    [src/volcano_map.R](https://github.com/sxropensource/volcano_map/blob/master/src/volcano_map.R)
+    到`src`目录
+    3. 根据文档文档做相应的修改（针对探索性步骤）
+    4. 运行`volcano_map.R`
+    
+        ```
+        $ src/volcano_map.R --png figs/volcano_map.png --pdf figs/volcano_map.pdf data/edgerAML.tsv
+        ```
+        
+## 整理结果
+
+本例中需要把`figs/volcano_map.png`和`figs/volcano_map.pdf`拷贝到
+
+1. 把[v1/runtime/figs/volcano_map.png](v1/runtime/figs/volcano_map.png)拷贝到[v1/results/Figure/Figure1.png]
+1. 把[v1/runtime/figs/volcano_map.pdf](v1/runtime/figs/volcano_map.pdf)拷贝到[v1/results/Figure/Figure1.pdf]
