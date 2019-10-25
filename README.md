@@ -1,13 +1,15 @@
-# BMG191024001-gse29272_dge
+# BMG191024001-volcano_map_edgerAML
 
-此项目使用到[GSE29272差异表达分析流程](https://github.com/sxropensource/gse29272_dge)。
+此项目使用到[火山图流程](https://github.com/sxropensource/volcano_map)。
 
 ## 安装依赖
 
-根据[流程说明文件](https://github.com/sxropensource/gse29272_dge/blob/master/README.md)
+根据[流程说明文件](https://github.com/sxropensource/volcano_map/blob/master/README.md)
 安装依赖。
     
 ## 建立目录结构
+
+> 数据和结果文件是分析过程中生成的，此步骤不需要建立。
 
 ```
 BMG191024001-volcano_map_edgerAML
