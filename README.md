@@ -88,7 +88,5 @@ BMG191024001-volcano_map_edgerAML
         
 ## 整理结果
 
-本例中需要把`figs/volcano_map.png`和`figs/volcano_map.pdf`拷贝到
-
 1. 把[v1/runtime/figs/volcano_map.png](v1/runtime/figs/volcano_map.png)拷贝到[v1/results/Figure/Figure1.png]
 1. 把[v1/runtime/figs/volcano_map.pdf](v1/runtime/figs/volcano_map.pdf)拷贝到[v1/results/Figure/Figure1.pdf]
