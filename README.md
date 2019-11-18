@@ -13,25 +13,32 @@
 
 ```
 BMG191024001-volcano_map_edgerAML
-├── README.md
-├── VERSION.md
-└── v1
-    ├── results
-    │   ├── Figure
-    │   │   ├── Figure1.pdf
-    │   │   └── Figure2.pdf
-    │   └── Table
-    └── runtime
-        ├── ANALYSIS.md
-        ├── data
-        │   └── edgerAML.tsv
-        ├── doc
-        ├── figs
-        │   ├── volcano_map.pdf
-        │   └── volcano_map.png
-        ├── output
-        └── src
-            └── volcano_map.R
+├── v1
+│   ├── results
+│   │   ├── v1.1
+│   │   │   ├── 报告：BMG191024001-volcano_map_edgerAML.docx
+│   │   │   ├── Figure
+│   │   │   │   ├── Figure1.pdf
+│   │   │   │   └── Figure1.png
+│   │   │   └── Table
+│   │   └── v1.2
+│   │       ├── 报告：BMG191024001-volcano_map_edgerAML.docx
+│   │       ├── Figure
+│   │       │   ├── Figure1.pdf
+│   │       │   └── Figure1.png
+│   │       └── Table
+│   └── runtime
+│       ├── ANALYSIS.md
+│       ├── data
+│       │   └── edgerAML.tsv
+│       ├── doc
+│       ├── figs
+│       │   ├── volcano_map.pdf
+│       │   └── volcano_map.png
+│       ├── output
+│       └── src
+│           └── volcano_map.R
+└── VERSION.md
 ```
 
 1. 关于版本控制
@@ -42,9 +49,8 @@ BMG191024001-volcano_map_edgerAML
     所有文件。版本说明文件`VERSION.md`意在说明进行版本变更时变更的目的
     （[版本变更文件`VERSION.md`模板](VERSION.md)）。
     
-    当需要进行项目调整时，如果项目调整比较小，可以建立`v1.1`目录。如果项目调整比较
-    大的话，可以建立`v2`目录。然后根据`v1`的目录结构，建立相同的目录结构。拷贝相应
-    的原始数据和代码。不能拷贝`v1`目录中的任何结果文件，如果需要该文件，可以根据
+    当需要进行项目调整时，可以建立`v2`目录。然后根据`v1`的目录结构，建立相同的目录结构。
+    拷贝相应的原始数据和代码。不能拷贝`v1`目录中的任何结果文件，如果需要该文件，可以根据
     `v2`中的代码再次生成。原则是`v2`中的文件除了原始文件之外不应该与`v1`中的文件
     有任何关系。
     
@@ -88,5 +94,42 @@ BMG191024001-volcano_map_edgerAML
         
 ## 整理结果
 
-1. 把[v1/runtime/figs/volcano_map.png](v1/runtime/figs/volcano_map.png)拷贝到[v1/results/Figure/Figure1.png](v1/results/Figure/Figure1.png)
-1. 把[v1/runtime/figs/volcano_map.pdf](v1/runtime/figs/volcano_map.pdf)拷贝到[v1/results/Figure/Figure1.pdf](v1/results/Figure/Figure1.pdf)
+结果一般包括：
+
+    1. 报告（本例：报告：BMG191024001-volcano_map_edgerAML.docx）
+    2. 附图（本例：Figure目录）
+    3. 附表（本例：Table目录）
+    
+关于结果的版本：
+
+    一次分析可以根据客户的需求持续更新报告，所以一次分析可能产生多个版本的结果。
+    
+    为了区分流程的版本，推荐使用两位的版本号，例如：v1.1。其中第一位代表流程的
+    版本号，第二位代表该流程运行的第几个版本的结果。例如：v1.1代表v1版本的流程
+    的第一个版本的结果。
+
+### 典型的结果目录结构
+
+```
+results
+├── v1.1
+│   ├── 报告：BMG191024001-volcano_map_edgerAML.docx
+│   ├── Figure
+│   │   ├── Figure1.pdf
+│   │   └── Figure1.png
+│   └── Table
+└── v1.2
+    ├── 报告：BMG191024001-volcano_map_edgerAML.docx
+    ├── Figure
+    │   ├── Figure1.pdf
+    │   └── Figure1.png
+    └── Table
+```
+
+### 如何整理结果
+
+项目运行完成之后，在`results`目录创建相应版本的结果文件夹，例如：`v1.1`，建立对应的目录结构。然后建立报告。
+边撰写报告，边把对应的附图、附表拷贝到`Figure`、`Table`目录。
+
+报告撰写完成之后，如果还需要修改，可以直接进行修改，不需要更新版本。如果这个时候结果已经发送到项目组，仍需要修改的话
+就需要建立一个新的结果目录，例如：`v1.2`，拷贝需要结果到新的目录再进行修改。
