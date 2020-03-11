@@ -63,9 +63,11 @@ BMG191024001-volcano_map_edgerAML
     
 3. `runtime/ANALYSIS.md`是用来做什么的？
 
-    分析过程中，除了生成文件之外可以产生一些其他的结果，这些结果可以写入到该`ANALYSIS.md`中。
+    分析过程中，往往需要执行一些步骤。可以把每个步骤需要执行哪个脚本
+    写到`ANALYSIS.md`里面（即分析的过程）。另外，除了生成文件之外
+    可以产生一些其他的结果，这些结果也可以写入到该`ANALYSIS.md`中。
     例如，当进行无监督聚类时，分类数就可以写入到该`ANALYSIS.md`中。
-    [`ANALYSIS.md`模板](v1/runtime/ANALYSIS.md)
+    [`ANALYSIS.md`模板](v1/runtime/ANALYSIS.md)。
     
 4. `runtime`目录结构说明
 
