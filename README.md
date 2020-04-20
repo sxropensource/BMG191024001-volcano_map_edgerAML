@@ -15,13 +15,13 @@
 BMG191024001-volcano_map_edgerAML
 ├── v1
 │   ├── results
-│   │   ├── v1.1
+│   │   ├── 结果：BMG191024001-volcano_map_edgerAML-v1.1
 │   │   │   ├── 报告：BMG191024001-volcano_map_edgerAML.docx
 │   │   │   ├── Figure
 │   │   │   │   ├── Figure1.pdf
 │   │   │   │   └── Figure1.png
 │   │   │   └── Table
-│   │   └── v1.2
+│   │   └── 结果：BMG191024001-volcano_map_edgerAML-v1.2
 │   │       ├── 报告：BMG191024001-volcano_map_edgerAML.docx
 │   │       ├── Figure
 │   │       │   ├── Figure1.pdf
