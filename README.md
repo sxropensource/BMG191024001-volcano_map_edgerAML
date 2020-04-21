@@ -19,13 +19,13 @@ BMG191024001-volcano_map_edgerAML
 │   │   │   ├── 报告：BMG191024001-volcano_map_edgerAML.docx
 │   │   │   ├── Figure
 │   │   │   │   ├── Figure1.pdf
-│   │   │   │   └── Figure1.png
+│   │   │   │   └── Figure1.tif
 │   │   │   └── Table
 │   │   └── 结果：BMG191024001-volcano_map_edgerAML-v1.2
 │   │       ├── 报告：BMG191024001-volcano_map_edgerAML.docx
 │   │       ├── Figure
 │   │       │   ├── Figure1.pdf
-│   │       │   └── Figure1.png
+│   │       │   └── Figure1.tif
 │   │       └── Table
 │   └── runtime
 │       ├── ANALYSIS.md
@@ -34,7 +34,7 @@ BMG191024001-volcano_map_edgerAML
 │       ├── doc
 │       ├── figs
 │       │   ├── volcano_map.pdf
-│       │   └── volcano_map.png
+│       │   └── volcano_map.tif
 │       ├── output
 │       └── src
 │           └── volcano_map.R
@@ -122,13 +122,13 @@ results
 │   ├── 报告：BMG191024001-volcano_map_edgerAML.docx
 │   ├── Figure
 │   │   ├── Figure1.pdf
-│   │   └── Figure1.png
+│   │   └── Figure1.tif
 │   └── Table
 └── v1.2
     ├── 报告：BMG191024001-volcano_map_edgerAML.docx
     ├── Figure
     │   ├── Figure1.pdf
-    │   └── Figure1.png
+    │   └── Figure1.tif
     └── Table
 ```
 
