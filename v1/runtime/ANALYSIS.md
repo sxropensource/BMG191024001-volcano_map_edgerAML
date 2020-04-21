@@ -2,6 +2,8 @@
 
 ## 第一步，画图
 
+执行程序：`src/volcano_map.R`
+
 输入文件：
 
 1. `data/edgerAML.tsv`
