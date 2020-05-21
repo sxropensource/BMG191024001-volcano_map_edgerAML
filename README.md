@@ -245,4 +245,4 @@ results
     
 3. `README`文件的格式有要求吗？
 
-    没有特别要求，文本、word、markdown、reStructedText等都可以。
+    没有特别要求，文本、word、markdown、reStructuredText等都可以。
